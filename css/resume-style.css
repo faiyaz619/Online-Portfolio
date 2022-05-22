@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+body {
+    background-color: #caceca;
+    background-image: linear-gradient(0deg, #caceca 0%, #cbfff9 71%);
+    color: white;
+
+}
+
+.content h1 {
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 10%;
+}
+
+.card {
+    border: none;
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255);
+    background-color: #000805;
+    background-image: linear-gradient(160deg, #000805 0%, #2e786f 91%);
+    text-align: center;
+    padding: 20px;
+
+}
+
+.card img {
+    height: 300px;
+    width: auto;
+    margin-bottom: 20px;
+
+}
+
+.objective {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    text-align: justify;
+}
+
+.objective p {
+    word-spacing: -1px;
+}
+
+/* Phone start */
+.phone {
+    color: white;
+    padding: 20px 0;
+}
+
+/* Phone end */
+/* Phone,Address,Email start */
+.address p,
+.email p,
+.phone p {
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.address p:hover,
+.email p:hover,
+.phone p:hover {
+    background-color: black;
+}
+
+.address i,
+.email i,
+.phone i {
+    color: black;
+    font-size: 25px;
+    display: flex;
+    margin-left: 30px;
+    padding-top: 28px;
+
+}
+
+.address i:hover,
+.email i:hover,
+.phone i:hover {
+    color: whitesmoke;
+}
+
+/* Phone,Address,Email end */
+/* Address start */
+.address h4 {
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Address end */
+/* Interest starts */
+.social {
+    padding: 20px 0;
+}
+
+.social a,
+.interest a {
+    font-size: 30px;
+    padding: 10px;
+    color: whitesmoke;
+    transition: transform .2s;
+}
+
+.social:hover,
+.interest:hover {
+    transform: scale(1.1);
+}
+
+.social a:hover,
+.interest a:hover {
+    color: crimson;
+    transform: scale(1.5);
+}
+
+.skill {
+    padding-top: 10%;
+    padding-bottom: 8.5px;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.skill .col-md-3 {
+    font-size: 15px;
+    padding-top: ;
+}
+
+.skill .col-md-3:hover {
+    color: crimson;
+}
+
+.progress-bar:hover {
+    background-color: crimson;
+}
+
+/* Interest ends */
+
+/* -----Card Details starts------- */
+.card-details {
+    border: none;
+    box-shadow: 1px 1px 20px 1px rgb(255, 255, 255);
+    background-color: #000805;
+    background-image: linear-gradient(160deg, #000805 0%, #2e786f 91%);
+    text-align: center;
+    padding: 20px;
+}
+
+.card-details ul li {
+    list-style: none;
+}
+
+.card-details .title {
+    color: white;
+    font-size: 30px;
+    /* background-color: linear-gradient(to top, #00122e, #001a3f, #002151, #002763, #002e76)!important; */
+}
+
+.card-details .title .col-md-4 {
+    padding: 16px;
+}
+
+.card-details .title .col-md-10 {}
+
+.card-details li {
+    font-size: 17px;
+    padding: 5px;
+    text-align: left;
+}
+
+.card-details .project-demo a {
+    color: black;
+    padding: 10px;
+    background-color: #5cdcad;
+    border-radius: 8%;
+    transition: .5s ease-in-out;
+}
+
+.card-details .project-demo a:hover {
+
+    background-color: #000805;
+    color: #5cdcad;
+}
+
+/* -----Card Details ends------- */
